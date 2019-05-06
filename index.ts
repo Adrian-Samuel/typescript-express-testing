@@ -6,7 +6,7 @@ import express = require('express');
 const PORT = process.env.PORT || 3000;
 const app: express.Application = express();
 
-import homeFunctionRoute from "./Controllers/home"
+import {homeFunctionRoute} from "./Controllers/home"
 
 app.get('/home', async (req, res, next)=>{
     await homeFunctionRoute(req,res,next);
