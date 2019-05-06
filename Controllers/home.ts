@@ -10,7 +10,6 @@ import express = require('express');
    return await next();
 }
 
-//export default const ha =() => console.log("A")
 
 
 export {homeFunctionRoute}
